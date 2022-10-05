@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/allwinner/virgo_perf1
+LOCAL_PATH := device/allwinner/T8116
 
