@@ -8,3 +8,12 @@
 /vendor_image       emmc      /dev/block/by-name/vendor                                             flags=display="Vendor image";backup=1;flashimg=1;
 /cache              ext4      /dev/block/by-name/cache                                              flags=display="Cache";
 /data               f2fs      /dev/block/by-name/UDISK                                              flags=display="Data";
+/sdcard             auto      /dev/block/mmcblk1p1                                                  flags=display=auto
+/sdcard             auto      /dev/block/mmcblk1                                                    flags=display=auto
+/sdcard             auto      /dev/block/mmcblk0p1                                                  flags=display=auto
+/sdcard             auto      /dev/block/mmcblk0                                                    flags=display=auto
+/sdcard             auto      /dev/block/sda1                                                       flags=display=auto
+/sdcard             auto      /dev/block/sda                                                        flags=display=auto
+/sdcard             auto      /dev/block/sdb1                                                       flags=display=auto
+/sdcard             auto      /dev/block/sda                                                        flags=display=auto
+/sdcard             auto      /dev/block/sdb                                                        flags=display=auto
