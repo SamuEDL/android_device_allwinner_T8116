@@ -58,7 +58,7 @@ TARGET_KERNEL_SOURCE := kernel/allwinner/T8116
 TARGET_KERNEL_CONFIG := T8116_defconfig
 
 # Platform
-TARGET_BOARD_PLATFORM := virgo
+TARGET_BOARD_PLATFORM := venus
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
