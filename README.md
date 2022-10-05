@@ -45,9 +45,5 @@ To test it:
 ```
 fastboot boot out/target/product/T8116/recovery.img
 ```
-## Thanks
-SebaUbuntu thanks to the repository of LineageOS on Allwinner. (https://github.com/lineageos-on-allwinner)
-
-Manuel Carmona for the video that explains how to compile a TWRP. (https://www.youtube.com/watch?v=Y7P_cW22Akw)
 
 
