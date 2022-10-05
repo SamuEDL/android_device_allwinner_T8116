@@ -1,9 +1,9 @@
-import /init.recovery.sun8iw15p1.rc
+import /init.recovery.${ro.hardware}.rc
 
 on early-init
     # Set the security context of /postinstall if present.
     restorecon /postinstall
-    
+
     start ueventd
 
 on init
@@ -12,8 +12,6 @@ on init
     export EXTERNAL_STORAGE /sdcard
 
     symlink /system/etc /etc
-
-    
 
     mount cgroup none /acct cpuacct
     mkdir /acct/uid
@@ -28,7 +26,6 @@ on init
 
     chown root shell /tmp
     chmod 0775 /tmp
-
 
     write /proc/sys/kernel/panic_on_oops 1
     write /proc/sys/vm/max_map_count 1000000
