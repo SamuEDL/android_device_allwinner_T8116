@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/allwinner/virgo_perf1
+DEVICE_PATH := device/allwinner/T8116
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := virgo_perf1
+TARGET_OTA_ASSERT_DEVICE := T8116
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -54,8 +54,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/allwinner/virgo_perf1
-TARGET_KERNEL_CONFIG := virgo_perf1_defconfig
+TARGET_KERNEL_SOURCE := kernel/allwinner/T8116
+TARGET_KERNEL_CONFIG := T8116_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := virgo
