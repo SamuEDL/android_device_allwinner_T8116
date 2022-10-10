@@ -7,7 +7,7 @@ Basic   | Spec Sheet
 -------:|:------------------------
 CPU     | QuadCore (4 x 1,5Ghz Cortex-A7)
 CHIPSET | Allwinner A50
-GPU     | Mali
+GPU     | Mali 400 MP2 GPU
 Memory  | 1GB
 Android Version | 8.1
 Storage | 16GB
