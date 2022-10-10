@@ -22,7 +22,7 @@ Front Camera | 2 MP
 First checkout minimal twrp with omnirom tree:
 
 ```
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8
+repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-8.1
 repo sync
 ```
 
